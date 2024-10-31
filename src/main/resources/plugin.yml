@@ -1,0 +1,4 @@
+name: Rift
+version: '1.0-SNAPSHOT'
+main: riftdev.rift.Rift
+api-version: '1.21'
