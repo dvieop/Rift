@@ -1,12 +1,15 @@
 package riftdev.rift;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import lombok.Getter;
 
-public final class Rift extends JavaPlugin {
+public final class Rift extends RiftPlugin {
+
+    @Getter
+    public static Rift instance;
 
     @Override
     public void onEnable() {
-
+        instance = this;
     }
 
     @Override

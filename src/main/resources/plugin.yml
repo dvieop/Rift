@@ -1,4 +1,7 @@
 name: Rift
-version: '1.0-SNAPSHOT'
+version: ${project.version}
+prefix: Rift
 main: riftdev.rift.Rift
 api-version: '1.21'
+load: STARTUP
+authors: [ dvie ]
